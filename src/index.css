@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    background-color: yellow;
+}
+
+.container{
+    padding: 10px 6vw;
+    
+}
+
+.menu{
+    display: none;
+}
+
+button{
+    padding: 2px 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .menu{
+        width: 60vw;
+        display: block;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .mobile-toggle{
+        display: none;
+    }
+  }
+
+
